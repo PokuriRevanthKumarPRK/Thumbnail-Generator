@@ -5,3 +5,4 @@ torch
 gradio_client
 groq
 opencv-python-headless
+datasets
