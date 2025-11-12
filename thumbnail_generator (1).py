@@ -37,7 +37,7 @@ if videofile is not None:
     # Hosted API alternative using HuggingFace Inference API
     import requests
 
-    hf_token = st.secrets["HF_TOKEN"]  # Put your HF token in Streamlit secrets
+    hf_token = st.secrets["HGF_KEY"]  # Put your HF token in Streamlit secrets
     headers = {"Authorization": f"Bearer {hf_token}"}
     files = {"file": open(audio_path, "rb")}
     response = requests.post(
