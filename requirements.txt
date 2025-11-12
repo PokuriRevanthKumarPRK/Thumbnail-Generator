@@ -1,0 +1,7 @@
+streamlit
+whisper
+transformers
+torch
+gradio_client
+groq
+opencv-python-headless
